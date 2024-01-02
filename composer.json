@@ -1,0 +1,31 @@
+{
+  "name": "gokhankurtulus/logger",
+  "description": "A simple PHP library for logging.",
+  "keywords": [
+    "log",
+    "logger",
+    "logging"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Logger\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "gokhankurtulus",
+      "email": "gokhan@gokhankurtulus.com",
+      "homepage": "https://github.com/gokhankurtulus"
+    }
+  ],
+  "require": {
+    "php": "^8.0 || ^8.1 || ^8.2"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
